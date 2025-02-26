@@ -40,7 +40,7 @@ export default function PokemonDetail() {
   if (error || !pokemon) return <h1 className="text-center text-2xl font-bold text-red-600">{error || "Pokémon Not Found"}</h1>;
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6">
       <PokemonDetailCard {...pokemon} />
       <Link href="/" className="inline-block mt-4 bg-red-500 hover:bg-red-600 transition text-white px-5 py-2 rounded-md">
         ← Back
